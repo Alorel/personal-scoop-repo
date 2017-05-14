@@ -5,7 +5,7 @@
     "description": "Bandwidth monitoring and data usage reports",
     "url": [
         "https://www.softperfect.com/download/files/networx_portable.zip",
-        "https://raw.githubusercontent.com/Alorel/scoop-personal/dev/deps/networx/networx.db"
+        "https://www.dropbox.com/s/ess3cjo3jxpv184/networx.db?dl=1"
     ],
     "hash": [
         "2b2db99413248622bb1a5e6c47fa9a02f7aef929c80d88687b34e798404179e3",
