@@ -1,0 +1,47 @@
+{
+    "homepage": "https://www.softperfect.com/products/networx/",
+    "license": "Proprietary",
+    "version": "6.0.3",
+    "description": "Bandwidth monitoring and data usage reports",
+    "url": [
+        "https://www.softperfect.com/download/files/networx_portable.zip",
+        "https://raw.githubusercontent.com/Alorel/scoop-personal/dev/deps/networx/networx.db"
+    ],
+    "hash": [
+        "2b2db99413248622bb1a5e6c47fa9a02f7aef929c80d88687b34e798404179e3",
+        "sha512:3bf8696c0f660cd6d32a9a854177ccf79cfb324cd6550bc850a40bdf9f42df6f5797c39e9dcd2c2987d6dc6f3944daaf8a0f5f43571fd1b8cef7f35c8544ee88"
+    ],
+    "architecture": {
+        "64bit": {
+            "extract_dir": "64-bit"
+        },
+        "32bit": {
+            "extract_dir": "32-bit"
+        }
+    },
+    "bin": "networx.exe",
+    "checkver": {
+        "url": "https://www.softperfect.com/products/changelog.php?product_id=2",
+        "re": "<td style=\"white-space:nowrap;\">([\\d.]+)</td>"
+    },
+    "shortcuts": [
+        [
+            "networx.exe",
+            "NetWorx"
+        ]
+    ],
+    "persist": [
+        "networx.db"
+    ],
+    "autoupdate": {
+        "url": "https://www.softperfect.com/download/files/networx_portable.zip",
+        "architecture": {
+            "64bit": {
+                "extract_dir": "64-bit"
+            },
+            "32bit": {
+                "extract_dir": "32-bit"
+            }
+        }
+    }
+}
